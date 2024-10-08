@@ -1,0 +1,17 @@
+# Ignore listed files and folders
+.vs/
+*.sln
+*.vcxproj*
+ClassAct.dbcd345b/
+x64/
+
+# Ignore other files if needed
+*.tmp
+*.log
+
+# Include only the specific files
+!main.cpp
+!allFunctions.hpp
+!initializeArray.cpp
+!printArray.cpp
+!sortArray.cpp
